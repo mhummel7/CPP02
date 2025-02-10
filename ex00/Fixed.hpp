@@ -6,7 +6,7 @@
 /*   By: mhummel <mhummel@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/10 09:42:13 by mhummel           #+#    #+#             */
-/*   Updated: 2025/02/10 09:56:16 by mhummel          ###   ########.fr       */
+/*   Updated: 2025/02/10 11:08:06 by mhummel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,8 +28,8 @@ class Fixed
 
 		Fixed& operator=(const Fixed& rhs);		// Copy assignment operator
 
-		int getRawBits(void) const;
-		void setRawBits(int const raw);
+		int getRawBits(void) const;				// Returns the raw value of the fixed-point value
+		void setRawBits(int const raw);			// Sets the raw value of the fixed-point value
 };
 
 #endif
