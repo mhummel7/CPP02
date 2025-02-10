@@ -6,11 +6,10 @@
 /*   By: mhummel <mhummel@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/10 09:40:53 by mhummel           #+#    #+#             */
-/*   Updated: 2025/02/10 09:43:55 by mhummel          ###   ########.fr       */
+/*   Updated: 2025/02/10 09:56:21 by mhummel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <iostream>
 #include "Fixed.hpp"
 
 int	main(void)
